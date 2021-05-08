@@ -16,10 +16,10 @@ import javax.persistence.Id;
 public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long AccountId;
-    private Long NumCuenta;
-    private Long Saldo;
-    private Long Ingresos;
-    private Long Gastos;
-    private Long CuentaTypeId;
+    private Long accountId;
+    private Long numCuenta;
+    private Long saldo;
+    private Long ingresos;
+    private Long gastos;
+    private Long cuentaTypeId;
 }
